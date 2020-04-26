@@ -7,13 +7,7 @@ const ProductList = ({
     isFetching,
     error,
 }) => {
-    useEffect(()=>{
-        fetchList()
-    }, [])
-    useEffect(()=>{
-        console.log('Products: ')
-        console.log(products)
-    }, [products])
+    useEffect(()=>{ fetchList() }, [])
     return (
         <div>
             <h2>Product List</h2>
