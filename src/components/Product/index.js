@@ -24,7 +24,8 @@ const ProductContainer = ({
 }) => {
     return (
         <>
-            <ProductForm/>
+            <ProductForm insertProduct={insertProduct}
+                         updateProduct={updateProduct}/>
             <ProductList products={list}
                             fetchList={fetchList}
                             isFetching={isFetching}
