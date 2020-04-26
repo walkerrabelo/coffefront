@@ -24,13 +24,12 @@ const ProductContainer = ({
 }) => {
     return (
         <>
-            
-                <ProductForm/>
-                <ProductList products={list}
-                             fetchList={fetchList}
-                             isFetching={isFetching}
-                             error={error}/>
-                <Button>Add Product</Button>
+            <ProductForm/>
+            <ProductList products={list}
+                            fetchList={fetchList}
+                            isFetching={isFetching}
+                            error={error}/>
+            <Button>Add Product</Button>
         </>
     )
 }

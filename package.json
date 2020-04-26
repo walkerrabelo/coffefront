@@ -19,7 +19,8 @@
     "redux-observable": "^1.2.0",
     "reselect": "^4.0.0",
     "rxjs": "^6.5.5",
-    "with-immutable-props-to-js": "^2.0.1"
+    "with-immutable-props-to-js": "^2.0.1",
+    "yup": "^0.28.4"
   },
   "scripts": {
     "start": "react-scripts start",

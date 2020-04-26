@@ -1,6 +1,9 @@
 import React from 'react'
 
-const ProductForm = ({className, product}) => {
+const ProductForm = ({
+    className, 
+    product
+}) => {
 
     return (
         <div>
