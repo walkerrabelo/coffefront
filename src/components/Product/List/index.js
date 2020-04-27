@@ -14,7 +14,7 @@ const ProductList = ({
             {
                 products.map(product => 
                     <ProductItem    key={product.id} 
-                                    className='coffee-item'
+                                    className='product-item'
                                     product={product}
                     />
                 )

@@ -5,9 +5,16 @@ body {
 code {
   font-family: 'Roboto',
 }
-.coffee-item {
+.product-item {
   color: blueviolet;
   font-weight: bold;
   display: block;
   margin-left: 20px;
+}
+.product-item__name {
+  margin-right: 20px;
+}
+
+.product-item__description {
+  font-weight: 200;
 }

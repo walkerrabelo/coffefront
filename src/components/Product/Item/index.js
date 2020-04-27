@@ -3,7 +3,8 @@ import React from 'react'
 const ProductItem = ({className, product}) => {
     return (
         <span className={className}>
-            {product.name}
+            <span className={`${className}__name`}>{product.name}</span>
+            <span className={`${className}__description`}>{product.description}</span>
         </span>
     )
 }
